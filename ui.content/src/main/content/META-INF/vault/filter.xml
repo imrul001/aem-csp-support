@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/cspsupport" mode="merge"/>
+    <filter root="/content/cspsupport" mode="merge"/>
+    <filter root="/content/dam/cspsupport" mode="merge">
+        <exclude pattern="/content/dam/cspsupport(/.*)?"/>
+        <include pattern="/content/dam/cspsupport/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/cspsupport/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/cspsupport" mode="merge"/>
+
+<!--    <filter root="/apps/cspsupport/config"/>-->
+</workspaceFilter>
